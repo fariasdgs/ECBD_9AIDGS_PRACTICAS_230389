@@ -8,6 +8,6 @@ Este repositorio contendrá los resultados de las prácticas de la materia para 
 
 ## Tabla de prácticas
 
-| Número | Descripción                                                                                      | Potenciador | Estatus  |
-| ------ | ------------------------------------------------------------------------------------------------ | ----------- | -------- |
-| 1      | [Introducción al uso de Python en el Análisis de Datos](./Practica03/AnalisisDatos230389_.ipynb) | 37          | Revisada |
+| Número | Descripción                                                                                               | Potenciador | Estatus  |
+| ------ | --------------------------------------------------------------------------------------------------------- | ----------- | -------- |
+| 1      | [Introducción al uso de Python en el Análisis de Datos](./Practica03/AnalisisDatos230389_corregido.ipynb) | 37          | Revisada |
