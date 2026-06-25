@@ -8,7 +8,7 @@ Este repositorio contendrá los resultados de las prácticas de la materia para 
 
 ## Tabla de prácticas
 
-| Número | Descripción                                                                                               | Potenciador | Estatus  |
-| ------ | --------------------------------------------------------------------------------------------------------- | ----------- | -------- |
-| 1      | [Introducción al uso de Python en el Análisis de Datos](./Practica03/AnalisisDatos230389_corregido.ipynb) | 37          | Revisada |
-| 2      | [Practica 4. Análisis de Dataset DonorsChoose y Visualizacion con Python y Jupiter Notebook](./Practica04/practica04_230389.ipynb) | N/A         | Pendiente |
+| Número | Descripción                                                                                | Potenciador |   Estatus    |
+| :----: | ------------------------------------------------------------------------------------------ | :---------: | :----------: |
+|   1    | Práctica 3. Análisis de Datos Exploratorio con Python y Jupyter Notebook                   |     50      |  Completada  |
+|   2    | Práctica 4. Análisis de Dataset DonorsChoose y Visualización con Python y Jupyter Notebook |     N/A     | Pendiente... |
