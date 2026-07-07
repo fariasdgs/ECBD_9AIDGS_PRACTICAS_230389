@@ -8,7 +8,7 @@ Este repositorio contendrá los resultados de las prácticas de la materia para 
 
 ## Tabla de prácticas
 
-| Número | Descripción                                                                                                                            | Potenciador |  Estatus   |
-| :----: | -------------------------------------------------------------------------------------------------------------------------------------- | :---------: | :--------: |
-|   1    | [Práctica 3. Análisis de Datos Exploratorio con Python y Jupyter Notebook](/Practica03/AnalisisDatos230389_corregido.ipynb)            |     50      | Completada |
-|   2    | [Práctica 4. Análisis de Dataset DonorsChoose y Visualización con Python y Jupyter Notebook](Practica_04_Farias_Leyva_Al_230389.ipynb) |     63      | Completada |
+| Número | Descripción                                                                                                                                        | Potenciador |  Estatus   |
+| :----: | -------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: | :--------: |
+|   1    | [Práctica 3. Análisis de Datos Exploratorio con Python y Jupyter Notebook](/Practica03/AnalisisDatos230389_corregido.ipynb)                        |     50      | Completada |
+|   2    | [Práctica 4. Análisis de Dataset DonorsChoose y Visualización con Python y Jupyter Notebook](/Practica04/Practica_04_Farias_Leyva_Al_230389.ipynb) |     63      | Completada |
