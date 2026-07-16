@@ -58,5 +58,15 @@ jupyter nbconvert --to notebook --execute Practica05/notebooks/analisis_paciente
   --output analisis_pacientes_puebla_ejecutado.ipynb --output-dir /tmp
 ```
 
+## Resultados generados
+
+El análisis produce las siguientes visualizaciones en la carpeta `outputs/`:
+
+- [Distribución de pacientes por municipio](./outputs/barras_municipios.png)
+- [Distribución del riesgo cardiovascular](./outputs/barras_riesgo_cardiovascular.png)
+- [Relación entre edad y presión sistólica](./outputs/dispersion_edad_presion.png)
+- [Histogramas de edad e IMC](./outputs/histogramas_edad_imc.png)
+
 **Autor:** Al Farias Leyva
-**Matricula** 230389
+
+**Matrícula:** 230389
