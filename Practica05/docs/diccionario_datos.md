@@ -35,6 +35,15 @@ El dataset sirve para practicar validación, limpieza, análisis exploratorio y 
 
 Los límites exactos se validan en el notebook; los extremos observados de peso pueden variar dentro del rango derivado por el redondeo.
 
+## Convenciones y calidad de los datos
+
+- El archivo está codificado en **UTF-8** y utiliza comas como separador.
+- La primera fila contiene los nombres de las 22 columnas.
+- Cada fila representa a un paciente ficticio y `id_paciente` funciona como identificador único.
+- El dataset generado contiene 5,000 filas y no presenta valores vacíos.
+- Los decimales utilizan punto; las unidades de medición se indican en el nombre o en la descripción de cada atributo.
+- Los valores categóricos conservan mayúsculas y acentos, por lo que deben compararse tal como aparecen en este diccionario.
+
 ## Reglas de generación
 
 - Se usa `random.Random(230389)` y se generan exactamente 5,000 identificadores consecutivos.
