@@ -51,6 +51,8 @@ python3 Practica05/src/generar_dataset.py
 jupyter notebook Practica05/notebooks/analisis_pacientes_puebla.ipynb
 ```
 
+> El generador utiliza la semilla `230389`, por lo que el dataset puede reproducirse con los mismos resultados.
+
 También puede ejecutarse y validarse el notebook completo sin interfaz:
 
 ```bash
