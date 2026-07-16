@@ -1,0 +1,5 @@
+# Caché generado automáticamente por Python
+__pycache__/
+
+# Archivos compilados de Python
+*.py[cod]
