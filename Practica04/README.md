@@ -1,6 +1,17 @@
-# Practica 04
+# Práctica 04: Análisis Exploratorio de Datos de DonorsChoose
 
-Notebook: [Practica_04_Farias_Leyva_Al_230389_.ipynb](Practica_04_Farias_Leyva_Al_230389_.ipynb)
+## Resumen
+
+Esta práctica realiza un análisis exploratorio del conjunto de datos de **DonorsChoose**. Mediante Python y un notebook de Jupyter se estudia la información de donadores, donaciones, maestros, escuelas, recursos y proyectos. También se utilizan gráficas, mapas y técnicas básicas de procesamiento de lenguaje natural para identificar patrones y comparar las características de los proyectos financiados y expirados.
+
+## Archivos de la práctica
+
+- [Notebook de la práctica](Practica_04_Farias_Leyva_Al_230389_.ipynb)
+- Los datasets utilizados se encuentran disponibles en Google Drive.
+
+## Datasets en Google Drive
+
+[Abrir carpeta de datasets en Google Drive](https://drive.google.com/drive/folders/16UHn8h---yZ0d2vGzfjFfPS780yW8lbV?usp=drive_link)
 
 ## Capturas de graficas
 
