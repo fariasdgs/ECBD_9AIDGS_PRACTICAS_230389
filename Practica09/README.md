@@ -2,17 +2,16 @@
 
 ## Portada
 
-| Dato | Información |
-| --- | --- |
-| **Institución** | Universidad Tecnológica de Xicotepec de Juárez |
-| **Asignatura** | Análisis de Datos para Negocios Digitales |
-| **Unidad** | Unidad 4 — Aprendizaje no supervisado |
-| **Estudiante** | Al Farias Leyva |
-| **Matrícula** | 230389 |
-| **Grupo** | 9A IDGS |
-| **Fecha** | 11 de agosto de 2026 |
+| Dato                  | Información                                                                                                                                      |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Institución**       | Universidad Tecnológica de Xicotepec de Juárez                                                                                                   |
+| **Unidad**            | Unidad 4 — Aprendizaje no supervisado                                                                                                            |
+| **Estudiante**        | Al Farias Leyva                                                                                                                                  |
+| **Matrícula**         | 230389                                                                                                                                           |
+| **Grupo**             | 9A IDGS                                                                                                                                          |
+| **Fecha**             | 11 de agosto de 2026                                                                                                                             |
 | **Notebook original** | [Unsupervised Learning: 3-6 Clusters \| K-Means \| EDA](https://www.kaggle.com/code/tanmay111999/unsupervised-learning-3-6-clusters-k-means-eda) |
-| **Repositorio** | [ECBD_9AIDGS_PRACTICAS_230389](https://github.com/fariasdgs/ECBD_9AIDGS_PRACTICAS_230389) |
+| **Repositorio**       | [ECBD_9AIDGS_PRACTICAS_230389](https://github.com/fariasdgs/ECBD_9AIDGS_PRACTICAS_230389)                                                        |
 
 ## Objetivo
 
@@ -69,13 +68,13 @@ La segmentación distingue cinco perfiles de clientes y muestra sus centroides. 
 
 ## Archivos
 
-| Archivo | Descripción |
-| --- | --- |
-| [Practica_09_KMeans_230389.ipynb](./Practica_09_KMeans_230389.ipynb) | Notebook documentado y ejecutado |
-| [Mall_Customers.csv](./Mall_Customers.csv) | Dataset de 200 clientes descargado de [Kaggle](https://www.kaggle.com/datasets/kandij/mall-customers) |
-| [EVIDENCIA_EJECUCION.md](./EVIDENCIA_EJECUCION.md) | Resumen de la ejecución y modelos finales |
-| [`images/`](./images/) | Evidencias gráficas exportadas |
-| [requirements.txt](./requirements.txt) | Dependencias mínimas |
+| Archivo                                                              | Descripción                                                                                           |
+| -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| [Practica_09_KMeans_230389.ipynb](./Practica_09_KMeans_230389.ipynb) | Notebook documentado y ejecutado                                                                      |
+| [Mall_Customers.csv](./Mall_Customers.csv)                           | Dataset de 200 clientes descargado de [Kaggle](https://www.kaggle.com/datasets/kandij/mall-customers) |
+| [EVIDENCIA_EJECUCION.md](./EVIDENCIA_EJECUCION.md)                   | Resumen de la ejecución y modelos finales                                                             |
+| [`images/`](./images/)                                               | Evidencias gráficas exportadas                                                                        |
+| [requirements.txt](./requirements.txt)                               | Dependencias mínimas                                                                                  |
 
 ## Ejecución
 
