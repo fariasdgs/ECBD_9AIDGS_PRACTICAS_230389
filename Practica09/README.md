@@ -29,6 +29,44 @@ Aplicar K-Means para segmentar clientes de un centro comercial a partir de edad,
 - Seis modelos finales con centroides y métricas.
 - Perfiles de clientes, comparación y limitaciones.
 
+## Evidencias gráficas
+
+### 1. Análisis exploratorio
+
+![Distribuciones de género, edad, ingreso y puntuación de gasto](./images/01_analisis_distribuciones.png)
+
+Las distribuciones muestran la diversidad demográfica y de comportamiento presente en los 200 clientes.
+
+### 2. Comparación antes y después de normalizar
+
+![Comparación de variables originales y normalizadas](./images/05_comparacion_variables_normalizadas.png)
+
+La estandarización coloca edad, ingreso y gasto en una escala comparable para evitar que una variable domine las distancias de K-Means.
+
+### 3. Selección del número de clústeres
+
+![Método del codo y coeficiente de silueta para ingreso y gasto](./images/08_metricas_ingreso_gasto.png)
+
+El método del codo y la silueta coinciden en seleccionar `k=5` para ingreso anual y puntuación de gasto, tanto con datos originales como normalizados.
+
+### 4. Segmentación final
+
+![Clústeres de ingreso anual y puntuación de gasto](./images/11_clusters_ingreso_gasto.png)
+
+La segmentación distingue cinco perfiles de clientes y muestra sus centroides. Las versiones original y normalizada producen la misma partición (`ARI=1.0`).
+
+<details>
+<summary>Ver las demás gráficas generadas</summary>
+
+- [Valores atípicos](./images/02_valores_atipicos.png)
+- [Relaciones bivariadas y correlación](./images/03_relaciones_bivariadas_y_correlacion.png)
+- [Gráfico de pares](./images/04_pairplot_variables.png)
+- [Métricas de edad e ingreso](./images/06_metricas_edad_ingreso.png)
+- [Métricas de edad y gasto](./images/07_metricas_edad_gasto.png)
+- [Clústeres de edad y gasto](./images/10_clusters_edad_gasto.png)
+
+</details>
+
 ## Archivos
 
 | Archivo | Descripción |
@@ -36,6 +74,7 @@ Aplicar K-Means para segmentar clientes de un centro comercial a partir de edad,
 | [Practica_09_KMeans_230389.ipynb](./Practica_09_KMeans_230389.ipynb) | Notebook documentado y ejecutado |
 | [Mall_Customers.csv](./Mall_Customers.csv) | Dataset de 200 clientes descargado de [Kaggle](https://www.kaggle.com/datasets/kandij/mall-customers) |
 | [EVIDENCIA_EJECUCION.md](./EVIDENCIA_EJECUCION.md) | Resumen de la ejecución y modelos finales |
+| [`images/`](./images/) | Evidencias gráficas exportadas |
 | [requirements.txt](./requirements.txt) | Dependencias mínimas |
 
 ## Ejecución
