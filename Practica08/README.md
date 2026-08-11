@@ -7,7 +7,7 @@
 | **Estudiante** | Al Farias Leyva |
 | **Matrícula** | 230389 |
 | **Grupo** | 9A IDGS |
-| **Fecha** | 11 de agosto de 2026 |
+| **Fecha** | 6 de agosto de 2026 |
 | **Asignatura** | Análisis de Datos para Negocios Digitales |
 | **Título** | Scatter Plot 3D con sprites de Pokémon |
 | **Repositorio de Git** | [ECBD_9AIDGS_PRACTICAS_230389](https://github.com/fariasdgs/ECBD_9AIDGS_PRACTICAS_230389) |
@@ -29,9 +29,10 @@ La carpeta quedará organizada de la siguiente manera cuando se agreguen los arc
 ```text
 Practica08/
 ├── README.md
-├── practica08_pokemon_230389.ipynb
-├── pokemon.csv
-└── scatterplot_3d_pokemon.html
+├── Practica_08_Pokemon_3D_230389.ipynb
+├── Pokemon.csv
+├── pokemon_scatter_3d_sprites.html
+└── screenshotScatter3D.png
 ```
 
 Los nombres del Notebook, dataset y archivo HTML pueden ajustarse a los nombres reales de los archivos utilizados.
@@ -65,25 +66,25 @@ Abrir el archivo `.ipynb` y ejecutar todas las celdas en orden. Al finalizar, se
 | Criterio | Firmas | Estado |
 | --- | :---: | :---: |
 | Portada con estudiante, grupo, fecha, título y objetivo | 2 | ✅ |
-| Importación de Pandas, NumPy y Plotly | 2 | ⬜ |
-| Carga y descripción del origen y contenido del dataset | 3 | ⬜ |
-| Inspección mediante `head()`, `shape`, `info()` y `describe()` | 2 | ⬜ |
-| Limpieza de columnas y valores categóricos | 3 | ⬜ |
-| Tratamiento de nulos, duplicados y datos incorrectos | 2 | ⬜ |
-| Selección y justificación de las variables estadísticas | 3 | ⬜ |
-| Creación de `promedio_estadisticas` | 2 | ⬜ |
-| Media, mediana, mínimo, máximo y desviación estándar | 4 | ⬜ |
-| Preparación de generación y tipo principal | 3 | ⬜ |
-| Obtención y validación de sprites | 2 | ⬜ |
-| Primera versión del Scatter Plot 3D | 3 | ⬜ |
-| Diferenciación visual por tipo principal | 3 | ⬜ |
-| Información emergente personalizada | 2 | ⬜ |
-| Integración de sprites | 3 | ⬜ |
-| Filtros interactivos | 2 | ⬜ |
-| Personalización del diseño de la gráfica | 3 | ⬜ |
-| Tres hallazgos relevantes | 2 | ⬜ |
-| Exportación interactiva en HTML | 2 | ⬜ |
-| Conclusiones y ejecución completa sin errores | 2 | ⬜ |
+| Importación de Pandas, NumPy y Plotly | 2 | ✅ |
+| Carga y descripción del origen y contenido del dataset | 3 | ✅ |
+| Inspección mediante `head()`, `shape`, `info()` y `describe()` | 2 | ✅ |
+| Limpieza de columnas y valores categóricos | 3 | ✅ |
+| Tratamiento de nulos, duplicados y datos incorrectos | 2 | ✅ |
+| Selección y justificación de las variables estadísticas | 3 | ✅ |
+| Creación de `promedio_estadisticas` | 2 | ✅ |
+| Media, mediana, mínimo, máximo y desviación estándar | 4 | ✅ |
+| Preparación de generación y tipo principal | 3 | ✅ |
+| Obtención y validación de sprites | 2 | ✅ |
+| Primera versión del Scatter Plot 3D | 3 | ✅ |
+| Diferenciación visual por tipo principal | 3 | ✅ |
+| Información emergente personalizada | 2 | ✅ |
+| Integración de sprites | 3 | ✅ |
+| Filtros interactivos | 2 | ✅ |
+| Personalización del diseño de la gráfica | 3 | ✅ |
+| Tres hallazgos relevantes | 2 | ✅ |
+| Exportación interactiva en HTML | 2 | ✅ |
+| Conclusiones y ejecución completa sin errores | 2 | ✅ |
 | **Total** | **50** | |
 
 ## Resultados esperados
@@ -100,7 +101,13 @@ Abrir el archivo `.ipynb` y ejecutar todas las celdas en orden. Al finalizar, se
 
 ## Estado actual
 
-La estructura y la documentación inicial de la práctica están listas. Está pendiente agregar y revisar el Notebook, el dataset utilizado y la visualización HTML exportada.
+El Notebook fue ejecutado completamente con las 24 celdas de código en orden y sin errores. Las comprobaciones automáticas del dataset, estadísticas, generaciones, tipos, sprites y exportación HTML finalizaron correctamente.
+
+## Evidencia visual
+
+![Scatter Plot 3D con sprites de Pokémon](./screenshotScatter3D.png)
+
+La visualización interactiva completa está disponible en [pokemon_scatter_3d_sprites.html](./pokemon_scatter_3d_sprites.html).
 
 ---
 
