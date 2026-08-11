@@ -11,6 +11,7 @@
 | **Matrícula** | 230389 |
 | **Grupo** | 9A IDGS |
 | **Fecha** | 11 de agosto de 2026 |
+| **Notebook original** | [Unsupervised Learning: 3-6 Clusters \| K-Means \| EDA](https://www.kaggle.com/code/tanmay111999/unsupervised-learning-3-6-clusters-k-means-eda) |
 | **Repositorio** | [ECBD_9AIDGS_PRACTICAS_230389](https://github.com/fariasdgs/ECBD_9AIDGS_PRACTICAS_230389) |
 
 ## Objetivo
@@ -50,4 +51,4 @@ Ejecutar todas las celdas en orden mediante **Kernel → Restart & Run All**.
 
 ## Estado
 
-El Notebook fue ejecutado completamente: 25 celdas de código en orden, cero errores y 10 comprobaciones automáticas correctas. Falta agregar la URL exacta del Notebook original de Kaggle proporcionado por el docente.
+Práctica completada. El Notebook fue ejecutado completamente: 25 celdas de código en orden, cero errores y 10 comprobaciones automáticas correctas.
