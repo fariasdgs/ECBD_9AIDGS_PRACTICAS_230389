@@ -2,14 +2,14 @@
 
 ## Portada
 
-| Dato | Información |
-| --- | --- |
-| **Estudiante** | Al Farias Leyva |
-| **Matrícula** | 230389 |
-| **Grupo** | 9A IDGS |
-| **Fecha** | 6 de agosto de 2026 |
-| **Asignatura** | Análisis de Datos para Negocios Digitales |
-| **Título** | Scatter Plot 3D con sprites de Pokémon |
+| Dato                   | Información                                                                               |
+| ---------------------- | ----------------------------------------------------------------------------------------- |
+| **Estudiante**         | Al Farias Leyva                                                                           |
+| **Matrícula**          | 230389                                                                                    |
+| **Grupo**              | 9A IDGS                                                                                   |
+| **Fecha**              | 11 de agosto de 2026                                                                      |
+| **Asignatura**         | Análisis de Datos para Negocios Digitales                                                 |
+| **Título**             | Scatter Plot 3D con sprites de Pokémon                                                    |
 | **Repositorio de Git** | [ECBD_9AIDGS_PRACTICAS_230389](https://github.com/fariasdgs/ECBD_9AIDGS_PRACTICAS_230389) |
 
 ## Objetivo
@@ -30,12 +30,12 @@ La versión completa puede abrirse desde [pokemon_scatter_3d_sprites.html](./pok
 
 ## Archivos
 
-| Archivo | Descripción |
-| --- | --- |
+| Archivo                                                                      | Descripción                                 |
+| ---------------------------------------------------------------------------- | ------------------------------------------- |
 | [Practica_07_Pokemon_3D_230389.ipynb](./Practica_07_Pokemon_3D_230389.ipynb) | Notebook con el análisis y la visualización |
-| [Pokemon.csv](./Pokemon.csv) | Dataset utilizado |
-| [pokemon_scatter_3d_sprites.html](./pokemon_scatter_3d_sprites.html) | Gráfica interactiva exportada |
-| [screenshotScatter3D.png](./screenshotScatter3D.png) | Captura de la gráfica final |
+| [Pokemon.csv](./Pokemon.csv)                                                 | Dataset utilizado                           |
+| [pokemon_scatter_3d_sprites.html](./pokemon_scatter_3d_sprites.html)         | Gráfica interactiva exportada               |
+| [screenshotScatter3D.png](./screenshotScatter3D.png)                         | Captura de la gráfica final                 |
 
 ## Ejecución
 
