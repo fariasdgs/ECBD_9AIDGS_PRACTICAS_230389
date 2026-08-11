@@ -1,4 +1,4 @@
-# Práctica 08: Scatter Plot 3D con sprites de Pokémon
+# Práctica 07: Scatter Plot 3D con sprites de Pokémon
 
 ## Portada
 
@@ -32,7 +32,7 @@ La versión completa puede abrirse desde [pokemon_scatter_3d_sprites.html](./pok
 
 | Archivo | Descripción |
 | --- | --- |
-| [Practica_08_Pokemon_3D_230389.ipynb](./Practica_08_Pokemon_3D_230389.ipynb) | Notebook con el análisis y la visualización |
+| [Practica_07_Pokemon_3D_230389.ipynb](./Practica_07_Pokemon_3D_230389.ipynb) | Notebook con el análisis y la visualización |
 | [Pokemon.csv](./Pokemon.csv) | Dataset utilizado |
 | [pokemon_scatter_3d_sprites.html](./pokemon_scatter_3d_sprites.html) | Gráfica interactiva exportada |
 | [screenshotScatter3D.png](./screenshotScatter3D.png) | Captura de la gráfica final |
@@ -43,7 +43,7 @@ Desde la raíz del repositorio:
 
 ```bash
 python3 -m pip install pandas numpy plotly jupyter
-jupyter notebook Practica08/
+jupyter notebook Practica07/
 ```
 
 Abrir el Notebook y ejecutar todas las celdas en orden. La versión entregada fue comprobada con 24 celdas de código ejecutadas sin errores.

@@ -13,4 +13,4 @@ Este repositorio contendrá los resultados de las prácticas de la materia para 
 |   1    | [Práctica 3. Análisis de Datos Exploratorio con Python y Jupyter Notebook](/Practica03/AnalisisDatos230389_corregido.ipynb)                         |     50      | Completada |
 |   2    | [Práctica 4. Análisis de Dataset DonorsChoose y Visualización con Python y Jupyter Notebook](/Practica04/Practica_04_Farias_Leyva_Al_230389_.ipynb) |     63      | Completada |
 |   3    | [Práctica 5. Dataset Clínico Simulado de Pacientes de Puebla](/Practica05/data/pacientes_puebla_5000.csv)                                           |     25      | Completada |
-|   4    | [Práctica 8. Scatter Plot 3D con sprites de Pokémon](./Practica08/README.md)                                                                         |     50      | Completada |
+|   4    | [Práctica 7. Scatter Plot 3D con sprites de Pokémon](./Practica07/README.md)                                                                         |     50      | Completada |
