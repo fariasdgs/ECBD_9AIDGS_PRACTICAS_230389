@@ -15,3 +15,4 @@ Este repositorio contendrá los resultados de las prácticas de la materia para 
 |   3    | [Práctica 5. Dataset Clínico Simulado de Pacientes de Puebla](/Practica05/data/pacientes_puebla_5000.csv)                                           |     25      | Completada |
 |   4    | [Práctica 7. Scatter Plot 3D con sprites de Pokémon](./Practica07/README.md)                                                                         |     50      | Completada |
 |   5    | [Práctica 9. Segmentación de clientes con K-Means](./Practica09/README.md)                                                                            |     50      | Completada |
+|   6    | [Práctica 10. Predicción de supervivencia del Titanic con Machine Learning](./Practica10/README.md)                                                   |     50      | Preparada  |
