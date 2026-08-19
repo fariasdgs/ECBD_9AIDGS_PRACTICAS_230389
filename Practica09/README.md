@@ -90,3 +90,4 @@ Ejecutar todas las celdas en orden mediante **Kernel → Restart & Run All**.
 ## Estado
 
 Práctica completada. El Notebook fue ejecutado completamente: 25 celdas de código en orden, cero errores y 10 comprobaciones automáticas correctas.
+<>
