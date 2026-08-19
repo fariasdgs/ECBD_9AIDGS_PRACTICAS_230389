@@ -16,17 +16,3 @@ Este repositorio contendrá los resultados de las prácticas de la materia para 
 |   4    | [Práctica 7. Scatter Plot 3D con sprites de Pokémon](./Practica07/README.md)                                                                        |     50      | Completada |
 |   5    | [Práctica 9. Segmentación de clientes con K-Means](./Practica09/README.md)                                                                          |     50      | Completada |
 |   6    | [Práctica 10. Predicción de supervivencia del Titanic con Machine Learning](./Practica10/README.md)                                                 |     S/N     | Completada |
-
-## Evidencias — Práctica 10
-
-### Análisis de supervivencia del Titanic
-
-La comparación muestra la distribución general de supervivencia y las tasas observadas según sexo y clase del pasajero.
-
-![Distribución y tasas de supervivencia del Titanic](./Practica10/images/01_supervivencia_titanic.png)
-
-### Evaluación del modelo Random Forest
-
-El modelo obtuvo un accuracy de **82.12 %**. La matriz de confusión resume 147 predicciones correctas y 32 incorrectas sobre el conjunto de prueba.
-
-![Matriz de confusión del modelo Random Forest](./Practica10/images/02_matriz_confusion.png)
