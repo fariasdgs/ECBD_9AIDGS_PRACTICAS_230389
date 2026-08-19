@@ -6,13 +6,13 @@
 
 La comparación muestra la distribución general de supervivencia y las tasas observadas según sexo y clase del pasajero.
 
-![Distribución y tasas de supervivencia del Titanic](./Practica10/images/01_supervivencia_titanic.png)
+![Distribución y tasas de supervivencia del Titanic](../Practica10/images/01_supervivencia_titanic.png)
 
 ### Evaluación del modelo Random Forest
 
 El modelo obtuvo un accuracy de **82.12 %**. La matriz de confusión resume 147 predicciones correctas y 32 incorrectas sobre el conjunto de prueba.
 
-![Matriz de confusión del modelo Random Forest](./Practica10/images/02_matriz_confusion.png)
+![Matriz de confusión del modelo Random Forest](../Practica10/images/02_matriz_confusion.png)
 
 ## Introducción
 
