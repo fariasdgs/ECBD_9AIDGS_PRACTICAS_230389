@@ -94,14 +94,20 @@ El preprocesamiento y el clasificador forman un solo `Pipeline`, lo que aplica e
 
 ## Resultados
 
-Los resultados no se documentan hasta ejecutar el notebook con el `train.csv` oficial de Kaggle. En el entorno actual Kaggle requiere una sesión o credenciales y el archivo no se encontraba en el repositorio, por lo que **no se inventa un accuracy ni una matriz de confusión**.
+El notebook se ejecutó completamente con los 891 registros del `train.csv` oficial de Kaggle. La división estratificada dejó 712 pasajeros para entrenamiento y 179 para prueba.
 
-Al ejecutar todas las celdas, el notebook calcula y muestra automáticamente:
+El modelo obtuvo un **accuracy de 0.8212, equivalente a 82.12 %**. La matriz de confusión fue:
 
-- accuracy como valor decimal y porcentaje;
-- matriz de confusión con etiquetas claras;
-- precision, recall y f1-score para ambas clases;
-- predicciones de dos pasajeros ficticios.
+| Valor real / Predicción | No sobrevivió | Sobrevivió |
+| --- | ---: | ---: |
+| No sobrevivió | 99 | 11 |
+| Sobrevivió | 21 | 48 |
+
+Esto representa 147 predicciones correctas y 32 incorrectas. Para la clase `Sobrevivió`, el modelo obtuvo precision de 0.8136, recall de 0.6957 y f1-score de 0.7500. Estas métricas corresponden exactamente a la ejecución guardada en el notebook con `random_state=42`.
+
+En la prueba manual, el primer pasajero ficticio fue clasificado como **No sobrevivió** y el segundo como **Sobrevivió**. Son estimaciones estadísticas del modelo, no certezas históricas.
+
+El notebook también conserva dos figuras listas para usarse como evidencia: una comparación de supervivencia general, por sexo y por clase, y una visualización etiquetada de la matriz de confusión.
 
 ## Ejecución
 
@@ -114,7 +120,7 @@ python3 -m pip install -r Practica10/requirements.txt
 jupyter notebook Practica10/notebooks/machine_learning_titanic.ipynb
 ```
 
-Después de colocar `train.csv` en `Practica10/data/`, ejecutar todas las celdas en orden mediante **Kernel → Restart & Run All**.
+El archivo `train.csv` debe permanecer en `Practica10/data/`. Para repetir el análisis, ejecutar todas las celdas en orden mediante **Kernel → Restart & Run All**.
 
 También se puede validar sin interfaz:
 
@@ -130,11 +136,14 @@ jupyter nbconvert --to notebook --execute \
 
 La práctica integra los pasos principales de un proyecto de aprendizaje supervisado. Además de entrenar un Random Forest, permite comprender por qué la exploración, el tratamiento de valores faltantes y una separación correcta entre entrenamiento y prueba son necesarios para evaluar el modelo de manera honesta. El uso de un pipeline hace que el proceso sea ordenado, reproducible y fácil de aplicar a pasajeros nuevos. Las predicciones representan estimaciones estadísticas y no certezas históricas.
 
+El notebook quedó ejecutado con sus 21 celdas de código completas y sin excepciones.
+
 ## Tecnologías utilizadas
 
 - Python
 - Pandas
 - Scikit-learn
+- Matplotlib
 - Jupyter Notebook
 - Kaggle
 - Git
@@ -142,4 +151,3 @@ La práctica integra los pasos principales de un proyecto de aprendizaje supervi
 **Autor:** Al Farias Leyva  
 **Matrícula:** 230389  
 **Grupo:** 9A IDGS
-
