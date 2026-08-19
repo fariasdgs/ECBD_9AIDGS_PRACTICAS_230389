@@ -1,5 +1,19 @@
 # Unidad 05 — Machine Learning con Scikit-learn
 
+## Evidencias — Práctica 10
+
+### Análisis de supervivencia del Titanic
+
+La comparación muestra la distribución general de supervivencia y las tasas observadas según sexo y clase del pasajero.
+
+![Distribución y tasas de supervivencia del Titanic](./Practica10/images/01_supervivencia_titanic.png)
+
+### Evaluación del modelo Random Forest
+
+El modelo obtuvo un accuracy de **82.12 %**. La matriz de confusión resume 147 predicciones correctas y 32 incorrectas sobre el conjunto de prueba.
+
+![Matriz de confusión del modelo Random Forest](./Practica10/images/02_matriz_confusion.png)
+
 ## Introducción
 
 En esta práctica se desarrolla un modelo que predice si un pasajero del Titanic sobrevivió. El trabajo recorre un flujo básico de Machine Learning: conocer los datos, preparar sus variables, separar ejemplos para entrenamiento y prueba, entrenar un clasificador y evaluar sus predicciones.
@@ -49,15 +63,15 @@ El CSV no se inventa ni se sustituye por datos sintéticos. Las instrucciones pa
 
 ## Variables utilizadas
 
-| Variable | Descripción |
-| --- | --- |
-| `Pclass` | Clase del boleto: primera, segunda o tercera clase. |
-| `Sex` | Sexo registrado del pasajero. |
-| `Age` | Edad en años; contiene algunos valores faltantes. |
-| `SibSp` | Número de hermanos, hermanas o cónyuges a bordo. |
-| `Parch` | Número de padres, madres o hijos a bordo. |
-| `Fare` | Tarifa pagada por el boleto. |
-| `Embarked` | Puerto de embarque: C, Q o S. |
+| Variable   | Descripción                                             |
+| ---------- | ------------------------------------------------------- |
+| `Pclass`   | Clase del boleto: primera, segunda o tercera clase.     |
+| `Sex`      | Sexo registrado del pasajero.                           |
+| `Age`      | Edad en años; contiene algunos valores faltantes.       |
+| `SibSp`    | Número de hermanos, hermanas o cónyuges a bordo.        |
+| `Parch`    | Número de padres, madres o hijos a bordo.               |
+| `Fare`     | Tarifa pagada por el boleto.                            |
+| `Embarked` | Puerto de embarque: C, Q o S.                           |
 | `Survived` | Variable objetivo que indica si el pasajero sobrevivió. |
 
 La codificación de la variable objetivo es:
@@ -77,7 +91,7 @@ El modelo principal es `RandomForestClassifier`. Un bosque aleatorio combina las
 2. Exploración de dimensiones, tipos, valores faltantes y distribución de supervivencia.
 3. Selección de siete características y de la variable objetivo.
 4. Imputación de valores numéricos faltantes mediante la mediana.
-5. Imputación de categorías y conversión con *one-hot encoding*.
+5. Imputación de categorías y conversión con _one-hot encoding_.
 6. División estratificada: 80 % para entrenamiento y 20 % para prueba.
 7. Entrenamiento reproducible de 200 árboles.
 8. Generación y comparación de predicciones.
@@ -99,9 +113,9 @@ El notebook se ejecutó completamente con los 891 registros del `train.csv` ofic
 El modelo obtuvo un **accuracy de 0.8212, equivalente a 82.12 %**. La matriz de confusión fue:
 
 | Valor real / Predicción | No sobrevivió | Sobrevivió |
-| --- | ---: | ---: |
-| No sobrevivió | 99 | 11 |
-| Sobrevivió | 21 | 48 |
+| ----------------------- | ------------: | ---------: |
+| No sobrevivió           |            99 |         11 |
+| Sobrevivió              |            21 |         48 |
 
 Esto representa 147 predicciones correctas y 32 incorrectas. Para la clase `Sobrevivió`, el modelo obtuvo precision de 0.8136, recall de 0.6957 y f1-score de 0.7500. Estas métricas corresponden exactamente a la ejecución guardada en el notebook con `random_state=42`.
 
